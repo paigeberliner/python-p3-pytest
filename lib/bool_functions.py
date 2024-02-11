@@ -1,2 +1,5 @@
 def return_true():
-    return False
+    return True
+
+def test_return_true():
+    assert return_true() is True
